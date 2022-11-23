@@ -38,10 +38,6 @@ public class AuthController {
     private AuthenticationManager authenticationManager ;
 
 
-
-
-
-
     @PostMapping("/login")
     public ResponseEntity <JwtAuthResponse> createToken(
             @RequestBody JwtAuthRequest request
