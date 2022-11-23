@@ -1,0 +1,104 @@
+.hero{
+     
+    
+    background-color: #e9ecef;
+    height: 100%;
+   
+}
+.hero1
+{
+   
+   padding-top: 20px;
+   line-height: 1.5rem;
+   margin-left: 600px;
+   color: purple;
+   font-weight: 600;
+   font-size: 25px;
+} 
+.hero2{
+   margin-left: 400px;
+   font-size: 35px;
+   color: #00225A;
+    font-weight: 800;
+    
+    margin-bottom: 15px;
+   
+}
+
+.s-container .swiper-button-prev
+{
+    size: 5px;
+    left: 1rem;
+    color: grey;
+
+}
+.s-container .swiper-button-next
+{
+   color: gray;
+   right: 2rem;
+}
+
+
+.img-col{
+    
+    border: 2px solid white;
+    /* padding: 5px 5px; */
+    width: 380px;
+    height:440px;
+     margin-top:60px;
+     margin-right: 20px;
+     right: 5rem;
+    justify-content: space-evenly;
+    background-color: #ffff;
+    border-radius: 5px;
+     margin-bottom: 10px; 
+    
+}
+.image1{
+    padding: 1px 1px;
+    height:300px;
+    width: 370px;
+    margin: 2px 4px;
+    transition: .4s all ease;
+   background-color: #00225A;
+    
+    transition: .4s;
+    
+   
+}
+
+.image1:hover
+{
+    /* border: 2px solid red; */
+   background-color:gray;
+   display: inline;
+   transform: scale(1.03);
+   opacity: .8; 
+   
+}
+.im{
+    margin-left: 30%;
+    margin-right: 13%;
+    font-weight: 700;
+    line-height: 4rem;
+    font-size: 20px;
+    justify-content: space-between;
+    color: black;
+}
+.im:hover{
+    color:rgb(38, 174, 228);
+}
+span a{
+    line-height: 3rem;
+    margin-left: 150px;
+    color: #3498db;
+    font-size: 12px;
+  
+    
+    
+}
+
+ span a:hover
+{
+    color: grey;
+}
